@@ -188,7 +188,7 @@ MoveList *mls = NULL;
 
 //=============================================================================
 
-char saveGameDirectory[260] = "./";
+char saveGameDirectory[260] = "/";
 int want_quit = 0;
 
 const char* sgnametemplate = "agssave.%03d";

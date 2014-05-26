@@ -458,12 +458,15 @@ extern "C" void ios_create_screen()
 	
 	char path[300];
 	strcpy(path, temp_document_dir);
-	strcat(path, "/ags/game/");
+
+    char filename[300];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"ac2game"
+                                                         ofType:@"dat"];
 	
-	char filename[300];
-	strcpy(filename, path);
-	strcat(filename, "ac2game.dat");
-	
+    
+    const char * resourceChars = [filePath UTF8String];
+    strcpy(filename, resourceChars);
+    
 	startEngine(filename, path, 0);	
 
 	[pool release];

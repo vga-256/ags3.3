@@ -806,7 +806,7 @@ int check_write_access() {
 
   // The Save Game Dir is the only place that we should write to
   char tempPath[MAX_PATH];
-  sprintf(tempPath, "%s""tmptest.tmp", saveGameDirectory);
+  //sprintf(tempPath, "%s""tmptest.tmp", saveGameDirectory);
   Stream *temp_s = Common::File::CreateFile(tempPath);
   if (!temp_s)
 #if defined(ANDROID_VERSION)
