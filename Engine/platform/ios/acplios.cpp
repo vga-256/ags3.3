@@ -595,7 +595,8 @@ void startEngine(char* filename, char* directory, int loadLastSave)
     game_file_path[lastindex] = 0;
     lastindex--;
   }
-  chdir(game_file_path);
+
+    int success = chdir(game_file_path);
   
   setenv("ULTRADIR", "..", 1);
 

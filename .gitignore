@@ -45,3 +45,6 @@ Android/library/obj/
 Android/library/default.properties
 Android/library/project.properties
 Android/library/.classpath
+Engine/ac/._game.cpp
+Engine/main/._engine.cpp
+Engine/platform/ios/._acplios.cpp

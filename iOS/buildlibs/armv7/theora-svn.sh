@@ -9,7 +9,7 @@ svn co http://svn.xiph.org/trunk/theora $FILENAME
 cd $FILENAME
 
 # remove call to ./configure from the script
-head --lines=-1 autogen.sh > autogenmod.sh
+sed '$d' autogen.sh > autogenmod.sh
 
 chmod +x ./autogenmod.sh
 
@@ -18,10 +18,11 @@ chmod +x ./autogenmod.sh
 rm ./config.sub
 rm ./config.guess
 
-wget http://git.savannah.gnu.org/cgit/config.git/plain/config.sub -O config.sub
-wget http://git.savannah.gnu.org/cgit/config.git/plain/config.guess -O config.guess
+## for some reason wget won't run
+/usr/local/bin/wget http://git.savannah.gnu.org/cgit/config.git/plain/config.sub -O config.sub
+/usr/local/bin/wget http://git.savannah.gnu.org/cgit/config.git/plain/config.guess -O config.guess
 
-wget https://raw.github.com/gabriel/ffmpeg-iphone-build/master/gas-preprocessor.pl -O lib/arm/gas-preprocessor.pl --no-check-certificate
+/usr/local/bin/wget https://raw.github.com/gabriel/ffmpeg-iphone-build/master/gas-preprocessor.pl -O lib/arm/gas-preprocessor.pl --no-check-certificate
 chmod +x lib/arm/gas-preprocessor.pl
 
 patch -p0 < ../../../patches/armv7/libtheora-svn.patch

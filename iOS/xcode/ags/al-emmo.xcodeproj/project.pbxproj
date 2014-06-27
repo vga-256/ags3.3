@@ -17,31 +17,6 @@
 		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
-		2D50010C1933E5E900041600 /* ac2game.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000F31933E5E900041600 /* ac2game.dat */; };
-		2D50010D1933E5E900041600 /* acsetup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000F41933E5E900041600 /* acsetup.cfg */; };
-		2D50010E1933E5E900041600 /* Al-Emmo.001 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000F51933E5E900041600 /* Al-Emmo.001 */; };
-		2D50010F1933E5E900041600 /* Al-Emmo.002 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000F61933E5E900041600 /* Al-Emmo.002 */; };
-		2D5001101933E5E900041600 /* Al-Emmo.003 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000F71933E5E900041600 /* Al-Emmo.003 */; };
-		2D5001111933E5E900041600 /* Al-Emmo.004 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000F81933E5E900041600 /* Al-Emmo.004 */; };
-		2D5001121933E5E900041600 /* Al-Emmo.005 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000F91933E5E900041600 /* Al-Emmo.005 */; };
-		2D5001131933E5E900041600 /* Al-Emmo.006 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000FA1933E5E900041600 /* Al-Emmo.006 */; };
-		2D5001141933E5E900041600 /* Al-Emmo.007 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000FB1933E5E900041600 /* Al-Emmo.007 */; };
-		2D5001151933E5E900041600 /* Al-Emmo.008 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000FC1933E5E900041600 /* Al-Emmo.008 */; };
-		2D5001161933E5E900041600 /* Al-Emmo.009 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000FD1933E5E900041600 /* Al-Emmo.009 */; };
-		2D5001171933E5E900041600 /* Al-Emmo.010 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000FE1933E5E900041600 /* Al-Emmo.010 */; };
-		2D5001181933E5E900041600 /* Al-Emmo.011 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5000FF1933E5E900041600 /* Al-Emmo.011 */; };
-		2D5001191933E5E900041600 /* Al-Emmo.012 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5001001933E5E900041600 /* Al-Emmo.012 */; };
-		2D50011A1933E5E900041600 /* Al-Emmo.013 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5001011933E5E900041600 /* Al-Emmo.013 */; };
-		2D50011B1933E5E900041600 /* Al-Emmo.014 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5001021933E5E900041600 /* Al-Emmo.014 */; };
-		2D50011C1933E5E900041600 /* Al-Emmo.015 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5001031933E5E900041600 /* Al-Emmo.015 */; };
-		2D50011D1933E5E900041600 /* Al-Emmo.016 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5001041933E5E900041600 /* Al-Emmo.016 */; };
-		2D50011E1933E5E900041600 /* Al-Emmo.017 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5001051933E5E900041600 /* Al-Emmo.017 */; };
-		2D50011F1933E5E900041600 /* Al-Emmo.018 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5001061933E5E900041600 /* Al-Emmo.018 */; };
-		2D5001201933E5E900041600 /* Al-Emmo.019 in Resources */ = {isa = PBXBuildFile; fileRef = 2D5001071933E5E900041600 /* Al-Emmo.019 */; };
-		2D5001211933E5E900041600 /* audio.vox in Resources */ = {isa = PBXBuildFile; fileRef = 2D5001081933E5E900041600 /* audio.vox */; };
-		2D5001221933E5E900041600 /* ph.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2D5001091933E5E900041600 /* ph.dat */; };
-		2D5001231933E5E900041600 /* speech.vox in Resources */ = {isa = PBXBuildFile; fileRef = 2D50010A1933E5E900041600 /* speech.vox */; };
-		2D5001241933E5E900041600 /* winsetup.exe in Resources */ = {isa = PBXBuildFile; fileRef = 2D50010B1933E5E900041600 /* winsetup.exe */; };
 		6007696216E9F56E00DCE88E /* test_version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6007696116E9F56E00DCE88E /* test_version.cpp */; };
 		6007696416E9F57A00DCE88E /* test_sprintf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6007696316E9F57A00DCE88E /* test_sprintf.cpp */; };
 		6007696C16E9F61600DCE88E /* version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6007696B16E9F61600DCE88E /* version.cpp */; };
@@ -358,6 +333,31 @@
 		60DC155816675BBF002D0474 /* agsstaticobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60DC155116675BBE002D0474 /* agsstaticobject.cpp */; };
 		60DC155A16675BBF002D0474 /* staticarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60DC155416675BBE002D0474 /* staticarray.cpp */; };
 		60F49A4A155131E500A07887 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F49A49155131E500A07887 /* AudioToolbox.framework */; };
+		840442F91954E6200077C26C /* acsetup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 840442E01954E6200077C26C /* acsetup.cfg */; };
+		840442FA1954E6200077C26C /* al-emmo.001 in Resources */ = {isa = PBXBuildFile; fileRef = 840442E11954E6200077C26C /* al-emmo.001 */; };
+		840442FB1954E6200077C26C /* al-emmo.002 in Resources */ = {isa = PBXBuildFile; fileRef = 840442E21954E6200077C26C /* al-emmo.002 */; };
+		840442FC1954E6200077C26C /* al-emmo.003 in Resources */ = {isa = PBXBuildFile; fileRef = 840442E31954E6200077C26C /* al-emmo.003 */; };
+		840442FD1954E6200077C26C /* al-emmo.004 in Resources */ = {isa = PBXBuildFile; fileRef = 840442E41954E6200077C26C /* al-emmo.004 */; };
+		840442FE1954E6200077C26C /* al-emmo.005 in Resources */ = {isa = PBXBuildFile; fileRef = 840442E51954E6200077C26C /* al-emmo.005 */; };
+		840442FF1954E6200077C26C /* al-emmo.006 in Resources */ = {isa = PBXBuildFile; fileRef = 840442E61954E6200077C26C /* al-emmo.006 */; };
+		840443001954E6200077C26C /* al-emmo.007 in Resources */ = {isa = PBXBuildFile; fileRef = 840442E71954E6200077C26C /* al-emmo.007 */; };
+		840443011954E6200077C26C /* al-emmo.008 in Resources */ = {isa = PBXBuildFile; fileRef = 840442E81954E6200077C26C /* al-emmo.008 */; };
+		840443021954E6200077C26C /* al-emmo.009 in Resources */ = {isa = PBXBuildFile; fileRef = 840442E91954E6200077C26C /* al-emmo.009 */; };
+		840443031954E6200077C26C /* al-emmo.010 in Resources */ = {isa = PBXBuildFile; fileRef = 840442EA1954E6200077C26C /* al-emmo.010 */; };
+		840443041954E6200077C26C /* al-emmo.011 in Resources */ = {isa = PBXBuildFile; fileRef = 840442EB1954E6200077C26C /* al-emmo.011 */; };
+		840443051954E6200077C26C /* al-emmo.012 in Resources */ = {isa = PBXBuildFile; fileRef = 840442EC1954E6200077C26C /* al-emmo.012 */; };
+		840443061954E6200077C26C /* al-emmo.013 in Resources */ = {isa = PBXBuildFile; fileRef = 840442ED1954E6200077C26C /* al-emmo.013 */; };
+		840443071954E6200077C26C /* al-emmo.014 in Resources */ = {isa = PBXBuildFile; fileRef = 840442EE1954E6200077C26C /* al-emmo.014 */; };
+		840443081954E6200077C26C /* al-emmo.015 in Resources */ = {isa = PBXBuildFile; fileRef = 840442EF1954E6200077C26C /* al-emmo.015 */; };
+		840443091954E6200077C26C /* al-emmo.016 in Resources */ = {isa = PBXBuildFile; fileRef = 840442F01954E6200077C26C /* al-emmo.016 */; };
+		8404430A1954E6200077C26C /* al-emmo.017 in Resources */ = {isa = PBXBuildFile; fileRef = 840442F11954E6200077C26C /* al-emmo.017 */; };
+		8404430B1954E6200077C26C /* al-emmo.018 in Resources */ = {isa = PBXBuildFile; fileRef = 840442F21954E6200077C26C /* al-emmo.018 */; };
+		8404430C1954E6200077C26C /* al-emmo.019 in Resources */ = {isa = PBXBuildFile; fileRef = 840442F31954E6200077C26C /* al-emmo.019 */; };
+		8404430D1954E6200077C26C /* ac2game.dat in Resources */ = {isa = PBXBuildFile; fileRef = 840442F41954E6200077C26C /* ac2game.dat */; };
+		8404430E1954E6200077C26C /* audio.vox in Resources */ = {isa = PBXBuildFile; fileRef = 840442F51954E6200077C26C /* audio.vox */; };
+		8404430F1954E6200077C26C /* ios.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 840442F61954E6200077C26C /* ios.cfg */; };
+		840443101954E6200077C26C /* ph.dat in Resources */ = {isa = PBXBuildFile; fileRef = 840442F71954E6200077C26C /* ph.dat */; };
+		840443111954E6200077C26C /* speech.vox in Resources */ = {isa = PBXBuildFile; fileRef = 840442F81954E6200077C26C /* speech.vox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -375,31 +375,6 @@
 		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		2D5000F31933E5E900041600 /* ac2game.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ac2game.dat; path = "../../../../Al-Emmo/Compiled/ac2game.dat"; sourceTree = "<group>"; };
-		2D5000F41933E5E900041600 /* acsetup.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = acsetup.cfg; path = "../../../../Al-Emmo/Compiled/acsetup.cfg"; sourceTree = "<group>"; };
-		2D5000F51933E5E900041600 /* Al-Emmo.001 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.001"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.001"; sourceTree = "<group>"; };
-		2D5000F61933E5E900041600 /* Al-Emmo.002 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.002"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.002"; sourceTree = "<group>"; };
-		2D5000F71933E5E900041600 /* Al-Emmo.003 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.003"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.003"; sourceTree = "<group>"; };
-		2D5000F81933E5E900041600 /* Al-Emmo.004 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.004"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.004"; sourceTree = "<group>"; };
-		2D5000F91933E5E900041600 /* Al-Emmo.005 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.005"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.005"; sourceTree = "<group>"; };
-		2D5000FA1933E5E900041600 /* Al-Emmo.006 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.006"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.006"; sourceTree = "<group>"; };
-		2D5000FB1933E5E900041600 /* Al-Emmo.007 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.007"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.007"; sourceTree = "<group>"; };
-		2D5000FC1933E5E900041600 /* Al-Emmo.008 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.008"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.008"; sourceTree = "<group>"; };
-		2D5000FD1933E5E900041600 /* Al-Emmo.009 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.009"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.009"; sourceTree = "<group>"; };
-		2D5000FE1933E5E900041600 /* Al-Emmo.010 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.010"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.010"; sourceTree = "<group>"; };
-		2D5000FF1933E5E900041600 /* Al-Emmo.011 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.011"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.011"; sourceTree = "<group>"; };
-		2D5001001933E5E900041600 /* Al-Emmo.012 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.012"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.012"; sourceTree = "<group>"; };
-		2D5001011933E5E900041600 /* Al-Emmo.013 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.013"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.013"; sourceTree = "<group>"; };
-		2D5001021933E5E900041600 /* Al-Emmo.014 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.014"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.014"; sourceTree = "<group>"; };
-		2D5001031933E5E900041600 /* Al-Emmo.015 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.015"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.015"; sourceTree = "<group>"; };
-		2D5001041933E5E900041600 /* Al-Emmo.016 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.016"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.016"; sourceTree = "<group>"; };
-		2D5001051933E5E900041600 /* Al-Emmo.017 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.017"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.017"; sourceTree = "<group>"; };
-		2D5001061933E5E900041600 /* Al-Emmo.018 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.018"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.018"; sourceTree = "<group>"; };
-		2D5001071933E5E900041600 /* Al-Emmo.019 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Al-Emmo.019"; path = "../../../../Al-Emmo/Compiled/Al-Emmo.019"; sourceTree = "<group>"; };
-		2D5001081933E5E900041600 /* audio.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = audio.vox; path = "../../../../Al-Emmo/Compiled/audio.vox"; sourceTree = "<group>"; };
-		2D5001091933E5E900041600 /* ph.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ph.dat; path = "../../../../Al-Emmo/Compiled/ph.dat"; sourceTree = "<group>"; };
-		2D50010A1933E5E900041600 /* speech.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = speech.vox; path = "../../../../Al-Emmo/Compiled/speech.vox"; sourceTree = "<group>"; };
-		2D50010B1933E5E900041600 /* winsetup.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = winsetup.exe; path = "../../../../Al-Emmo/Compiled/winsetup.exe"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* al-emmo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "al-emmo_Prefix.pch"; sourceTree = "<group>"; };
 		6007696116E9F56E00DCE88E /* test_version.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_version.cpp; sourceTree = "<group>"; };
 		6007696316E9F57A00DCE88E /* test_sprintf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_sprintf.cpp; sourceTree = "<group>"; };
@@ -1079,7 +1054,32 @@
 		60DC155516675BBE002D0474 /* staticarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = staticarray.h; sourceTree = "<group>"; };
 		60DC155716675BBF002D0474 /* staticobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = staticobject.h; sourceTree = "<group>"; };
 		60F49A49155131E500A07887 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		8D1107310486CEB800E47090 /* ags-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ags-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		840442E01954E6200077C26C /* acsetup.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = acsetup.cfg; path = game/acsetup.cfg; sourceTree = "<group>"; };
+		840442E11954E6200077C26C /* al-emmo.001 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.001"; path = "game/al-emmo.001"; sourceTree = "<group>"; };
+		840442E21954E6200077C26C /* al-emmo.002 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.002"; path = "game/al-emmo.002"; sourceTree = "<group>"; };
+		840442E31954E6200077C26C /* al-emmo.003 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.003"; path = "game/al-emmo.003"; sourceTree = "<group>"; };
+		840442E41954E6200077C26C /* al-emmo.004 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.004"; path = "game/al-emmo.004"; sourceTree = "<group>"; };
+		840442E51954E6200077C26C /* al-emmo.005 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.005"; path = "game/al-emmo.005"; sourceTree = "<group>"; };
+		840442E61954E6200077C26C /* al-emmo.006 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.006"; path = "game/al-emmo.006"; sourceTree = "<group>"; };
+		840442E71954E6200077C26C /* al-emmo.007 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.007"; path = "game/al-emmo.007"; sourceTree = "<group>"; };
+		840442E81954E6200077C26C /* al-emmo.008 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.008"; path = "game/al-emmo.008"; sourceTree = "<group>"; };
+		840442E91954E6200077C26C /* al-emmo.009 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.009"; path = "game/al-emmo.009"; sourceTree = "<group>"; };
+		840442EA1954E6200077C26C /* al-emmo.010 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.010"; path = "game/al-emmo.010"; sourceTree = "<group>"; };
+		840442EB1954E6200077C26C /* al-emmo.011 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.011"; path = "game/al-emmo.011"; sourceTree = "<group>"; };
+		840442EC1954E6200077C26C /* al-emmo.012 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.012"; path = "game/al-emmo.012"; sourceTree = "<group>"; };
+		840442ED1954E6200077C26C /* al-emmo.013 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.013"; path = "game/al-emmo.013"; sourceTree = "<group>"; };
+		840442EE1954E6200077C26C /* al-emmo.014 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.014"; path = "game/al-emmo.014"; sourceTree = "<group>"; };
+		840442EF1954E6200077C26C /* al-emmo.015 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.015"; path = "game/al-emmo.015"; sourceTree = "<group>"; };
+		840442F01954E6200077C26C /* al-emmo.016 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.016"; path = "game/al-emmo.016"; sourceTree = "<group>"; };
+		840442F11954E6200077C26C /* al-emmo.017 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.017"; path = "game/al-emmo.017"; sourceTree = "<group>"; };
+		840442F21954E6200077C26C /* al-emmo.018 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.018"; path = "game/al-emmo.018"; sourceTree = "<group>"; };
+		840442F31954E6200077C26C /* al-emmo.019 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-emmo.019"; path = "game/al-emmo.019"; sourceTree = "<group>"; };
+		840442F41954E6200077C26C /* ac2game.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ac2game.dat; path = game/ac2game.dat; sourceTree = "<group>"; };
+		840442F51954E6200077C26C /* audio.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = audio.vox; path = game/audio.vox; sourceTree = "<group>"; };
+		840442F61954E6200077C26C /* ios.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ios.cfg; path = game/ios.cfg; sourceTree = "<group>"; };
+		840442F71954E6200077C26C /* ph.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ph.dat; path = game/ph.dat; sourceTree = "<group>"; };
+		840442F81954E6200077C26C /* speech.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = speech.vox; path = game/speech.vox; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* al-emmo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "al-emmo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1163,7 +1163,7 @@
 				6041A8691552E63B00596310 /* Icon.png */,
 				28EC4C5811D54ECE0027AA9F /* agsViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* ags-Info.plist */,
+				8D1107310486CEB800E47090 /* al-emmo-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1192,31 +1192,31 @@
 		2D5000F21933E5D500041600 /* game */ = {
 			isa = PBXGroup;
 			children = (
-				2D5000F31933E5E900041600 /* ac2game.dat */,
-				2D5000F41933E5E900041600 /* acsetup.cfg */,
-				2D5000F51933E5E900041600 /* Al-Emmo.001 */,
-				2D5000F61933E5E900041600 /* Al-Emmo.002 */,
-				2D5000F71933E5E900041600 /* Al-Emmo.003 */,
-				2D5000F81933E5E900041600 /* Al-Emmo.004 */,
-				2D5000F91933E5E900041600 /* Al-Emmo.005 */,
-				2D5000FA1933E5E900041600 /* Al-Emmo.006 */,
-				2D5000FB1933E5E900041600 /* Al-Emmo.007 */,
-				2D5000FC1933E5E900041600 /* Al-Emmo.008 */,
-				2D5000FD1933E5E900041600 /* Al-Emmo.009 */,
-				2D5000FE1933E5E900041600 /* Al-Emmo.010 */,
-				2D5000FF1933E5E900041600 /* Al-Emmo.011 */,
-				2D5001001933E5E900041600 /* Al-Emmo.012 */,
-				2D5001011933E5E900041600 /* Al-Emmo.013 */,
-				2D5001021933E5E900041600 /* Al-Emmo.014 */,
-				2D5001031933E5E900041600 /* Al-Emmo.015 */,
-				2D5001041933E5E900041600 /* Al-Emmo.016 */,
-				2D5001051933E5E900041600 /* Al-Emmo.017 */,
-				2D5001061933E5E900041600 /* Al-Emmo.018 */,
-				2D5001071933E5E900041600 /* Al-Emmo.019 */,
-				2D5001081933E5E900041600 /* audio.vox */,
-				2D5001091933E5E900041600 /* ph.dat */,
-				2D50010A1933E5E900041600 /* speech.vox */,
-				2D50010B1933E5E900041600 /* winsetup.exe */,
+				840442E01954E6200077C26C /* acsetup.cfg */,
+				840442E11954E6200077C26C /* al-emmo.001 */,
+				840442E21954E6200077C26C /* al-emmo.002 */,
+				840442E31954E6200077C26C /* al-emmo.003 */,
+				840442E41954E6200077C26C /* al-emmo.004 */,
+				840442E51954E6200077C26C /* al-emmo.005 */,
+				840442E61954E6200077C26C /* al-emmo.006 */,
+				840442E71954E6200077C26C /* al-emmo.007 */,
+				840442E81954E6200077C26C /* al-emmo.008 */,
+				840442E91954E6200077C26C /* al-emmo.009 */,
+				840442EA1954E6200077C26C /* al-emmo.010 */,
+				840442EB1954E6200077C26C /* al-emmo.011 */,
+				840442EC1954E6200077C26C /* al-emmo.012 */,
+				840442ED1954E6200077C26C /* al-emmo.013 */,
+				840442EE1954E6200077C26C /* al-emmo.014 */,
+				840442EF1954E6200077C26C /* al-emmo.015 */,
+				840442F01954E6200077C26C /* al-emmo.016 */,
+				840442F11954E6200077C26C /* al-emmo.017 */,
+				840442F21954E6200077C26C /* al-emmo.018 */,
+				840442F31954E6200077C26C /* al-emmo.019 */,
+				840442F41954E6200077C26C /* ac2game.dat */,
+				840442F51954E6200077C26C /* audio.vox */,
+				840442F61954E6200077C26C /* ios.cfg */,
+				840442F71954E6200077C26C /* ph.dat */,
+				840442F81954E6200077C26C /* speech.vox */,
 			);
 			name = game;
 			sourceTree = "<group>";
@@ -2342,7 +2342,7 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				604B5533155C4F7400581284 /* ShellScript */,
+				2D93FCF6193506B10031B76E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -2391,44 +2391,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				2D5001211933E5E900041600 /* audio.vox in Resources */,
-				2D50010D1933E5E900041600 /* acsetup.cfg in Resources */,
-				2D50011F1933E5E900041600 /* Al-Emmo.018 in Resources */,
+				8404430E1954E6200077C26C /* audio.vox in Resources */,
+				840442FF1954E6200077C26C /* al-emmo.006 in Resources */,
+				840443081954E6200077C26C /* al-emmo.015 in Resources */,
+				840443071954E6200077C26C /* al-emmo.014 in Resources */,
+				8404430B1954E6200077C26C /* al-emmo.018 in Resources */,
+				840442FD1954E6200077C26C /* al-emmo.004 in Resources */,
+				840443021954E6200077C26C /* al-emmo.009 in Resources */,
+				8404430A1954E6200077C26C /* al-emmo.017 in Resources */,
+				840443061954E6200077C26C /* al-emmo.013 in Resources */,
+				840442FA1954E6200077C26C /* al-emmo.001 in Resources */,
 				28EC4C5A11D54ECE0027AA9F /* agsViewController.xib in Resources */,
-				2D50011A1933E5E900041600 /* Al-Emmo.013 in Resources */,
-				2D50010C1933E5E900041600 /* ac2game.dat in Resources */,
-				2D50010E1933E5E900041600 /* Al-Emmo.001 in Resources */,
-				2D5001231933E5E900041600 /* speech.vox in Resources */,
+				8404430F1954E6200077C26C /* ios.cfg in Resources */,
+				840443111954E6200077C26C /* speech.vox in Resources */,
+				840442FE1954E6200077C26C /* al-emmo.005 in Resources */,
+				840442FB1954E6200077C26C /* al-emmo.002 in Resources */,
 				6041A86A1552E63B00596310 /* Icon.png in Resources */,
 				608498E6155CDF6400121EFE /* Icon-72.png in Resources */,
-				2D5001181933E5E900041600 /* Al-Emmo.011 in Resources */,
+				840443011954E6200077C26C /* al-emmo.008 in Resources */,
+				840443101954E6200077C26C /* ph.dat in Resources */,
 				608498E8155CDF7000121EFE /* Icon@2x.png in Resources */,
-				2D5001141933E5E900041600 /* Al-Emmo.007 in Resources */,
-				2D5001111933E5E900041600 /* Al-Emmo.004 in Resources */,
-				2D50011D1933E5E900041600 /* Al-Emmo.016 in Resources */,
-				2D5001151933E5E900041600 /* Al-Emmo.008 in Resources */,
-				2D5001101933E5E900041600 /* Al-Emmo.003 in Resources */,
-				2D5001171933E5E900041600 /* Al-Emmo.010 in Resources */,
-				2D5001121933E5E900041600 /* Al-Emmo.005 in Resources */,
 				60BC89A8155E969700807358 /* iTunesArtwork in Resources */,
-				2D5001161933E5E900041600 /* Al-Emmo.009 in Resources */,
+				840443091954E6200077C26C /* al-emmo.016 in Resources */,
+				840443041954E6200077C26C /* al-emmo.011 in Resources */,
+				840442F91954E6200077C26C /* acsetup.cfg in Resources */,
+				840442FC1954E6200077C26C /* al-emmo.003 in Resources */,
+				840443051954E6200077C26C /* al-emmo.012 in Resources */,
+				8404430D1954E6200077C26C /* ac2game.dat in Resources */,
+				840443001954E6200077C26C /* al-emmo.007 in Resources */,
+				840443031954E6200077C26C /* al-emmo.010 in Resources */,
+				8404430C1954E6200077C26C /* al-emmo.019 in Resources */,
 				60844EAD1573943400003ED0 /* MainWindow-iPad.xib in Resources */,
-				2D50010F1933E5E900041600 /* Al-Emmo.002 in Resources */,
-				2D50011E1933E5E900041600 /* Al-Emmo.017 in Resources */,
-				2D5001131933E5E900041600 /* Al-Emmo.006 in Resources */,
-				2D5001221933E5E900041600 /* ph.dat in Resources */,
-				2D5001241933E5E900041600 /* winsetup.exe in Resources */,
-				2D50011B1933E5E900041600 /* Al-Emmo.014 in Resources */,
-				2D5001191933E5E900041600 /* Al-Emmo.012 in Resources */,
-				2D50011C1933E5E900041600 /* Al-Emmo.015 in Resources */,
-				2D5001201933E5E900041600 /* Al-Emmo.019 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		604B5533155C4F7400581284 /* ShellScript */ = {
+		2D93FCF6193506B10031B76E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2439,7 +2439,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Developer/iphoneentitlements401/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+			shellScript = "#export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\n#if [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n#/Developer/iphoneentitlements401/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\n#codesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\n#fi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2772,16 +2772,19 @@
 				GCC_PREFIX_HEADER = "al-emmo_Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "al-emmo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../nativelibs/fat/lib\"",
 					"\"$(SRCROOT)/../../../Engine\"",
 					"\"$(SRCROOT)/../../../Plugins/agslua/agslua/zlib\"",
 				);
+				New_Setting = "";
 				PRODUCT_NAME = "al-emmo";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -2796,25 +2799,28 @@
 				GCC_PREFIX_HEADER = "al-emmo_Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "al-emmo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../nativelibs/fat/lib\"",
 					"\"$(SRCROOT)/../../../Engine\"",
 					"\"$(SRCROOT)/../../../Plugins/agslua/agslua/zlib\"",
 				);
+				New_Setting = "";
 				PRODUCT_NAME = "al-emmo";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Don't Code Sign";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					USE_TREMOR,
@@ -2837,7 +2843,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "${SOURCE_ROOT}/../../nativelibs/fat/lib";
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CODE_SIGN_FLAGS = "-gta";
+				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
@@ -2850,8 +2856,7 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Don't Code Sign";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					USE_TREMOR,
@@ -2871,6 +2876,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "${SOURCE_ROOT}/../../nativelibs/fat/lib";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";

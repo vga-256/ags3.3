@@ -2,15 +2,15 @@
 
 unset DEVROOT SDKROOT CFLAGS CC LD CPP CXX AR AS NM CXXCPP RANLIB LDFLAGS CPPFLAGS CXXFLAGS
 
-export IOS_BASE_SDK="4.3"
-export IOS_DEPLOY_TGT="3.2"
+export IOS_BASE_SDK="7.1"
+export IOS_DEPLOY_TGT="6.0"
 
-export DEVROOT=/Developer/Platforms/iPhoneOS.platform/Developer
+export DEVROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer
 export SDKROOT=$DEVROOT/SDKs/iPhoneOS$IOS_BASE_SDK.sdk
 export IOS_ADDITIONAL_LIBRARY_PATH=$(pwd)/../../nativelibs/armv7
 export IOS_HOST_NAME=arm-apple-darwin10
 
-export PATH="$PATH;$DEVROOT/usr/bin"
+export PATH="$PATH:$DEVROOT/usr/bin:/usr/local/bin"
 
 export CPP="$DEVROOT/usr/bin/cpp-4.2"
 export CXX="$DEVROOT/usr/bin/g++-4.2"

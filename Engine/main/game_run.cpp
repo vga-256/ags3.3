@@ -53,6 +53,7 @@
 #include "script/script.h"
 #include "ac/spritecache.h"
 
+extern void prepare_cutscene_skip();
 extern AnimatingGUIButton animbuts[MAX_ANIMATING_BUTTONS];
 extern int numAnimButs;
 extern int mouse_on_iface;   // mouse cursor is over this interface
@@ -293,9 +294,9 @@ void check_controls() {
     aa=mgetbutton();
     if (aa>NONE) {
         if ((play.in_cutscene == 3) || (play.in_cutscene == 4))
-            start_skipping_cutscene();
+            prepare_cutscene_skip();
         if ((play.in_cutscene == 5) && (aa == RIGHT))
-            start_skipping_cutscene();
+            prepare_cutscene_skip();
 
         if (play.fast_forward) { }
         else if ((play.wait_counter > 0) && (play.key_skip_wait > 1))
@@ -707,6 +708,8 @@ void mainloop(bool checkControls, IDriverDependantBitmap *extraBitmap, int extra
     game_loop_check_controls(checkControls);
 
     our_eip=2;
+    
+    start_skipping_cutscene();
 
     game_loop_do_update();
 
