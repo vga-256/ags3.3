@@ -138,6 +138,7 @@ int PlaySoundEx(int val1, int channel) {
     if (play.fast_forward)
         return -1;
 
+    
     // that sound is already in memory, play it
     if (!psp_audio_multithreaded)
     {

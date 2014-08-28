@@ -408,7 +408,8 @@ extern "C" void ios_create_screen()
 	else if (psp_rotation == 1)
 		return UIInterfaceOrientationIsPortrait(interfaceOrientation);
 	else if (psp_rotation == 2)
-		return UIInterfaceOrientationIsLandscape(interfaceOrientation);	
+		return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+    return YES;	
 }
 
 
@@ -420,6 +421,30 @@ extern "C" void ios_create_screen()
 		[self moveViewAnimated:YES duration:0.1];
 }
 
+// J For ios 6.0 and above
+-(NSInteger)supportedInterfaceOrientations{
+    if (psp_rotation == 0)
+		return UIInterfaceOrientationMaskAllButUpsideDown;
+	else if (psp_rotation == 1)
+		return UIInterfaceOrientationMaskPortrait;
+	else if (psp_rotation == 2)
+		return UIInterfaceOrientationMaskLandscape;
+    
+    return UIInterfaceOrientationMaskAllButUpsideDown;
+}
+
+// J For ios 6.0 and above
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+    if (psp_rotation == 0)
+		return UIInterfaceOrientationMaskAllButUpsideDown;
+	else if (psp_rotation == 1)
+		return UIInterfaceOrientationMaskPortrait;
+	else if (psp_rotation == 2)
+		return UIInterfaceOrientationMaskLandscape;
+    
+    return UIInterfaceOrientationMaskAllButUpsideDown;
+}
 
 - (void)awakeFromNib
 {

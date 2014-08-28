@@ -232,25 +232,36 @@ void mloadwcursor(char *namm)
 }
 
 int butwas = 0;
-int mgetbutton()
+
+void mupdatebuttonrelease()
 {
-  int toret = NONE;
-  poll_mouse();
-  int butis = mouse_b;
-
-  if ((butis > 0) & (butwas > 0))
-    return NONE;  // don't allow holding button down
-
-  if (butis & 1)
-    toret = LEFT;
-  else if (butis & 2)
-    toret = RIGHT;
-  else if (butis & 4)
-    toret = MIDDLE;
-
-  butwas = butis;
-  return toret;
+    butwas = mouse_b;
 }
+
+int mgetbutton(bool checkrelease=true)
+{
+    int toret = NONE;
+    poll_mouse();
+    int butis = mouse_b;
+    
+    if ((butis > 0) & (butwas > 0))
+        return NONE;  // don't allow holding button down
+    
+    if (butis & 1)
+        toret = LEFT;
+    else if (butis & 2)
+        toret = RIGHT;
+    else if (butis & 4)
+        toret = MIDDLE;
+    
+    
+    if (checkrelease){
+        butwas = mouse_b;
+    }
+    //butwas = butis;
+    return toret;
+}
+
 
 const int MB_ARRAY[3] = { 1, 2, 4 };
 int misbuttondown(int buno)
@@ -260,6 +271,23 @@ int misbuttondown(int buno)
     return TRUE;
   return FALSE;
 }
+
+//j
+int misbuttonreleased(int buno)
+{
+    int toret = FALSE;
+    // int butis = mouse_b;
+    poll_mouse();
+    
+    if (mouse_b & MB_ARRAY[buno])
+        toret = FALSE;
+    else if (butwas & MB_ARRAY[buno])
+        toret = TRUE;
+    
+    // butwas = butis;
+    return toret;
+}
+
 
 void msetgraphpos(int xa, int ya)
 { 
