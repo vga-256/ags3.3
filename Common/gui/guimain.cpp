@@ -427,6 +427,7 @@ void GUIMain::poll()
 
 void GUIMain::mouse_but_down()
 {
+    poll(); //j ensures that guis check for mouse_downs
   if (mouseover < 0)
     return;
 

@@ -6,6 +6,8 @@
 // From the engine
 extern void startEngine(char* filename, char* directory, int loadLastSave);
 extern int psp_rotation;
+extern void start_skipping_cutscene();
+extern void check_skip_cutscene_drag(int startx, int starty, int endx, int endy);
 
 
 
@@ -34,13 +36,18 @@ int mouse_position_x = 0;
 int mouse_position_y = 0;
 int mouse_relative_position_x = 0;
 int mouse_relative_position_y = 0;
+int mouse_start_position_x = 0;
+int mouse_start_position_y = 0;
+
+extern "C" float ios_mouse_scaling_x; //j
+extern "C" float ios_mouse_scaling_y; //j
 
 extern "C"
 {
 	int ios_poll_mouse_buttons()
 	{
 		int temp_button = mouse_button;
-		mouse_button = 0;
+		//j mouse_button = 0;
 		return temp_button;
 	}
 
@@ -56,6 +63,15 @@ extern "C"
 		*x = mouse_position_x;
 		*y = mouse_position_y;
 	}
+    
+    //j
+    void ios_set_mouse(int x, int y)
+    {
+        x = (float)x / ios_mouse_scaling_x; // rescale game coordinates to screen coordinates.
+        y = (float)y / ios_mouse_scaling_y;
+        mouse_position_x=x;
+        mouse_position_y=y;
+    }
 }
 
 
@@ -255,9 +271,9 @@ extern "C" int ios_is_keyboard_visible()
 }
 
 
-
+//j
 // Touching
-
+/*
 
 - (IBAction)handleSingleFingerTap:(UIGestureRecognizer *)sender
 {
@@ -268,7 +284,7 @@ extern "C" int ios_is_keyboard_visible()
 {
 	mouse_button = 2;
 }
-
+*/
 
 - (void)moveViewAnimated:(BOOL)upwards duration:(float)duration
 {
@@ -288,6 +304,8 @@ extern "C" int ios_is_keyboard_visible()
 	[UIView commitAnimations];
 }
 
+//j
+/*
 - (IBAction)handleLongPress:(UIGestureRecognizer *)sender
 {
 	if (sender.state != UIGestureRecognizerStateBegan)
@@ -302,14 +320,17 @@ extern "C" int ios_is_keyboard_visible()
 		[self showKeyboard];
 	}
 }
+ */
 
+//j
+/*
 - (IBAction)handleShortLongPress:(UIGestureRecognizer *)sender
 {
 	if (sender.state != UIGestureRecognizerStateBegan)
 	  return;
 
 	mouse_button = 10;
-}
+}*/
 
 - (void)touchesMoved:(NSSet*)touches withEvent:(UIEvent*)event
 {
@@ -317,6 +338,7 @@ extern "C" int ios_is_keyboard_visible()
 	CGPoint touchPoint = [touch locationInView:self.view];	
 	mouse_position_x = touchPoint.x;
 	mouse_position_y = touchPoint.y;
+    mouse_button=1;
 }
 
 -(void)touchesBegan:(NSSet*)touches withEvent:(UIEvent*)event
@@ -325,10 +347,30 @@ extern "C" int ios_is_keyboard_visible()
 	CGPoint touchPoint = [touch locationInView:self.view];	
 	mouse_position_x = touchPoint.x;
 	mouse_position_y = touchPoint.y;
+    mouse_button=1;
 }
 
-- (void)createGestureRecognizers
+//j
+
+-(void)touchesEnded:(NSSet*)touches withEvent:(UIEvent*)event
 {
+	UITouch* touch = [touches anyObject];
+	CGPoint touchPoint = [touch locationInView:self.view];
+	mouse_position_x = touchPoint.x;
+	mouse_position_y = touchPoint.y;
+    mouse_button=0;
+
+    // if you want to enable the swipe-to-skip-cutscene gesture, use this code below:
+    
+    // Check skip cutscene
+    //check_skip_cutscene_drag(mouse_start_position_x, mouse_start_position_y, mouse_position_x, mouse_position_y);
+    
+    
+}
+
+
+- (void)createGestureRecognizers
+{ /* //j
 	UITapGestureRecognizer* singleFingerTap = [[UITapGestureRecognizer alloc]
 	initWithTarget:self action:@selector(handleSingleFingerTap:)];
 	singleFingerTap.numberOfTapsRequired = 1;
@@ -355,10 +397,14 @@ extern "C" int ios_is_keyboard_visible()
 	[shortLongPressGesture requireGestureRecognizerToFail:longPressGesture];
 	[self.view addGestureRecognizer:shortLongPressGesture];
 	[shortLongPressGesture release];
+   */
 }
 
 
-
+- (BOOL) prefersStatusBarHidden
+{
+    return YES;
+}
 
 
 
