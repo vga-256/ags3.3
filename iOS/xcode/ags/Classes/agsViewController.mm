@@ -27,7 +27,13 @@ char* ios_document_directory;
 
 agsViewController* agsviewcontroller;
 
-
+// J Is this an iPhone or iPad?
+extern "C" bool isPhone()
+{
+    UIUserInterfaceIdiom idiom = UI_USER_INTERFACE_IDIOM();
+    
+    return (idiom==UIUserInterfaceIdiomPhone);
+}
 
 // Mouse
 
@@ -347,6 +353,8 @@ extern "C" int ios_is_keyboard_visible()
 	CGPoint touchPoint = [touch locationInView:self.view];	
 	mouse_position_x = touchPoint.x;
 	mouse_position_y = touchPoint.y;
+	mouse_start_position_x = touchPoint.x; //j
+	mouse_start_position_y = touchPoint.y; //j
     mouse_button=1;
 }
 
@@ -360,7 +368,7 @@ extern "C" int ios_is_keyboard_visible()
 	mouse_position_y = touchPoint.y;
     mouse_button=0;
 
-    // if you want to enable the swipe-to-skip-cutscene gesture, use this code below:
+    //c if you want to enable the swipe-to-skip-cutscene gesture, use this code below:
     
     // Check skip cutscene
     //check_skip_cutscene_drag(mouse_start_position_x, mouse_start_position_y, mouse_position_x, mouse_position_y);
@@ -398,8 +406,8 @@ extern "C" int ios_is_keyboard_visible()
 	[self.view addGestureRecognizer:shortLongPressGesture];
 	[shortLongPressGesture release];
    */
+    
 }
-
 
 - (BOOL) prefersStatusBarHidden
 {
@@ -508,7 +516,7 @@ extern "C" void ios_create_screen()
 	[(EAGLView *)self.view setFramebuffer];
 	
 	self.isKeyboardActive = FALSE;
-	self.isInPortraitOrientation = TRUE;
+	self.isInPortraitOrientation = !UIInterfaceOrientationIsLandscape(agsviewcontroller.interfaceOrientation);
 	
 	[self createKeyboardButtonBar:1];
 	

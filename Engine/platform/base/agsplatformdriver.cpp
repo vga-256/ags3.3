@@ -126,6 +126,7 @@ void AGSPlatformDriver::InitialiseAbufAtStartup()
     // because loading the game file accesses abuf, it must exist
     // No no no, David Blain, no magic here :P
     //abuf = BitmapHelper::CreateBitmap(10,10,8);
+
 }
 
 void AGSPlatformDriver::FinishedUsingGraphicsMode()

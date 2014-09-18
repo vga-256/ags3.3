@@ -89,6 +89,7 @@ extern unsigned int loopcounter,lastcounter;
 extern volatile int timerloop;
 extern int cur_mode,cur_cursor;
 
+extern void mupdatebuttonrelease();
 
 int numEventsAtStartOfFunction;
 long t1;  // timer for FPS // ... 't1'... how very appropriate.. :)
@@ -540,10 +541,12 @@ void game_loop_check_controls(bool checkControls)
     // don't let the player do anything before the screen fades in
     if ((in_new_room == 0) && (checkControls)) {
         int inRoom = displayed_room;
+        mgetgraphpos();//j
         check_controls();
         // If an inventory interaction changed the room
         if (inRoom != displayed_room)
             check_new_room();
+        // mupdatebuttonrelease(); //j
     }
 }
 
